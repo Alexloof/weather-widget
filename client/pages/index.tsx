@@ -59,7 +59,7 @@ const App: NextFunctionComponent<IProps> = ({ weather, errorMessage }) => {
               type="text"
               value={searchText}
               onChange={handleInput}
-              placeholder="Seach a city in Denmark..."
+              placeholder="Search a city in Denmark..."
             />
             <SearchButton>Search</SearchButton>
           </form>
